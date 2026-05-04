@@ -161,6 +161,6 @@ async def search(client:BotClient, message:Update):
 
 async def main_run():
     await AntiSpams()
-    await bot.run(webhook_url="amirpython.runflare.run", path="/wh",)
+    await bot.run(webhook_url="http://amirpython.runflare.run", path="/wh",)
 asyncio.run(main_run())
 
